@@ -1,7 +1,7 @@
 version: "3"
 services:
   employee-jdbc:
-    image: employee-jdbc
+    image: docker-employee
     ports:
       - "8080:8080"
     networks:
